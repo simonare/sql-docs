@@ -83,7 +83,7 @@ VALUES ('NewTitle');
 ```  
   
 ### C. Executing a DELETE pass-through query  
- The following example uses a pass-through `DELETE` query to delete the row inserted in example C.  
+ The following example uses a pass-through `DELETE` query to delete the row inserted in example B.  
   
 ```sql  
 DELETE OPENQUERY (OracleSvr, 'SELECT name FROM joe.titles WHERE name = ''NewTitle''');  
